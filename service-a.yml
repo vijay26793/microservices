@@ -1,1 +1,6 @@
-datasource.name=oracle_vijay
+spring.application.name=Student
+spring.datasource.url=jdbc:postgresql://localhost:5432/school
+spring.datasource.username=postgres
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
