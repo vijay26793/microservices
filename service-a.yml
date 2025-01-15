@@ -3,11 +3,3 @@ spring.datasource.username=postgres
 spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-
-app.read=vijay
-
-# Disable restarting
-spring.devtools.restart.enabled=false
-
-# Optional: Disable LiveReload server
-spring.devtools.livereload.enabled=false
